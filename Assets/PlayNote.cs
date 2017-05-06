@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayNote : MonoBehaviour {
 
+    public bool piano;
+
     private AudioSource audio;
     private bool play = true;
 
@@ -21,6 +23,12 @@ public class PlayNote : MonoBehaviour {
         }
         else
             play = true;
+    }
+
+    void OnMouseDown()
+    {
+        if(piano)
+            audio.Play();
     }
 
 }

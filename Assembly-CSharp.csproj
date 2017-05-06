@@ -46,16 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackToMenu.cs" />
      <Compile Include="Assets\CameraControl.cs" />
-     <Compile Include="Assets\FailState.cs" />
-     <Compile Include="Assets\MinigameTransition.cs" />
      <Compile Include="Assets\PlayNote.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\PlayerControl.cs" />
      <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Restart.cs" />
-     <Compile Include="Assets\StartButton.cs" />
+     <Compile Include="Assets\Transition.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
