@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class PlayNote : MonoBehaviour {
 
-    public AudioSource audio;
+    private AudioSource audio;
+    private bool play = true;
 
 	// Use this for initialization
 	void Start () {
-		
+        audio = GetComponent<AudioSource>();
 	}
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        audio.Play();
+        if (play)
+        {
+            audio.Play();
+            play = false;
+        }
+        else
+            play = true;
     }
 
 }
