@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level: Piano
+  button: 0
 --- !u!61 &119009387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -320,6 +321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &224520830
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &240710016
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &248723270
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &342509558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,6 +1057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &702396317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &808936461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1005349956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1043959418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +1950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1420179668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,6 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!82 &1420179672
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2298,6 +2309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1515105842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,6 +2490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1622567699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,6 +2628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1646726233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,6 +2749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level: Game Over
+  button: 0
 --- !u!1 &1840722852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2832,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840722852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: -4, z: -10}
+  m_LocalPosition: {x: -5, y: -4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2972,6 +2987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
 --- !u!1 &1994489086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,3 +3125,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: 0
+  name: 
