@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class SimonSays : MonoBehaviour {
 	public string Level; //level to go to once complete Simon Says
@@ -64,6 +65,9 @@ public class SimonSays : MonoBehaviour {
 		if(currNotesCurrIndex>=currNotesToPlay.Length) { //reached end of Simon Says for this sequence
 			if (numNotes == 5) {
 				playNotesText.text = "Congratulations!"; //reached end of entire song
+
+				StartCoroutine(DelayBeforeLoadLevel()); //doesn't seem to work?
+
 				Application.LoadLevel(Level);
 			} else { //update for next sequence
 				currNote=currNote+numNotes; //increment to next set of notes
@@ -99,5 +103,10 @@ public class SimonSays : MonoBehaviour {
 			//Debug.Log ("Wrong: "+whichKey);
 			correctnessText.text="Try Again!";
 		}
+	}
+
+	//for delay before loading level but doesn't seem to work?
+	IEnumerator DelayBeforeLoadLevel() {
+		yield return new WaitForSeconds(10f);  // Wait three seconds
 	}
 }

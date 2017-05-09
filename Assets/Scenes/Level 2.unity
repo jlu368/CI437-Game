@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7de47b6a6d9cde541a7ac0a38012600d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level: Piano
+  Level: Rhythm Game
   button: 0
 --- !u!61 &119009387
 BoxCollider2D:
